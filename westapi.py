@@ -5,9 +5,6 @@ from urllib.parse import urlencode
 username ='your_user_name'
 password ='your_api_password'
 
-api_url = 'https://api.west.cn/api/v2/'
-params_name = ['username','time','token']
-
 # 查询我的余额
 def check_blance():
     url = api_url+'info/?act=checkbalance'
@@ -173,6 +170,10 @@ def register_domain(domain,year,info_template_id,safe_price=''):
     params['regyear'] = year
     params['domain'] = domain
     return _post(url,params)
+
+
+api_url = 'https://api.west.cn/api/v2/'
+params_name = ['username','time','token']
 
 def _md5(source_str):
     coder = hashlib.md5()
