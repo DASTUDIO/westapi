@@ -15,10 +15,18 @@ passowrd = 'myPassword'
 
 ### 使用
 
-示例：查询余额
+示例：
+
+查询余额
 
 ```
 check_balance()
 ```
+注册域名
 
-功能详情移步westapi.py的注释
+```
+register_domain('iamreallyrich.com',1,712)
+```
+
+
+功能详情移步注释
