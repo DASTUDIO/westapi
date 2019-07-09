@@ -8,7 +8,7 @@ PS:注意这个password是api的password而不是登录密码,这个API密码需
 
 example:
 
-```
+```python
 username = 'xiaoming'
 passowrd = 'myPassword'
 ```
@@ -19,12 +19,12 @@ passowrd = 'myPassword'
 
 查询余额
 
-```
+```python
 check_balance()
 ```
 注册域名
 
-```
+```python
 register_domain('iamreallyrich.com',1,712)
 ```
 
